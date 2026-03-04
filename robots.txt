@@ -1,0 +1,27 @@
+User-agent: *
+Allow: /
+
+# Sitemap location
+Sitemap: https://www.royalivory.com/sitemap.xml
+
+# Crawl-delay for politeness (optional)
+Crawl-delay: 1
+
+# Disallow admin and temporary files (if any)
+Disallow: /admin/
+Disallow: /temp/
+Disallow: /private/
+Disallow: /*.log$
+Disallow: /*.bak$
+
+# Allow all CSS and JS files
+Allow: /css/
+Allow: /js/
+Allow: /img/
+
+# Additional sitemaps (if you create category-specific ones in future)
+# Sitemap: https://www.royalivory.com/sitemap-articles.xml
+# Sitemap: https://www.royalivory.com/sitemap-images.xml
+
+# Host specification (helps with domain preference)
+Host: https://www.royalivory.com

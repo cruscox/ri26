@@ -1,0 +1,147 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Hotel",
+  "name": "Royal Ivory Nana Hotel",
+  "alternateName": [
+    "Royal Ivory Hotel Bangkok",
+    "Royal Ivory Nana",
+    "Royal Ivory Sukhumvit"
+  ],
+  "description": "Best hotel in Nana Bangkok. Royal Ivory offers authentic Thai-style rooms (32-80 sqm) in quiet area near nightlife, 2 minutes to BTS Nana. No joiner charge, budget rates, 3-star quality.",
+  "url": "https://www.royalivory.com",
+  "image": [
+    "https://www.royalivory.com/img/room-2-room-page-2-big.jpg",
+    "https://www.royalivory.com/img/hotel-exterior.jpg",
+    "https://www.royalivory.com/img/hotel-lobby.jpg"
+  ],
+  "logo": "https://www.royalivory.com/img/logo.png",
+  "telephone": "+66-2-253-8181",
+  "email": "info@royalivory.com",
+  "address": {
+    "@type": "PostalAddress",
+    "streetAddress": "Sukhumvit Soi 4",
+    "addressLocality": "Khlong Toei",
+    "addressRegion": "Bangkok",
+    "postalCode": "10110",
+    "addressCountry": "TH"
+  },
+  "geo": {
+    "@type": "GeoCoordinates",
+    "latitude": 13.7444,
+    "longitude": 100.5564
+  },
+  "openingHours": "Mo-Su 00:00-23:59",
+  "checkinTime": "14:00",
+  "checkoutTime": "12:00",
+  "priceRange": "$$",
+  "currenciesAccepted": "THB,USD,EUR",
+  "paymentAccepted": [
+    "Cash",
+    "Credit Card",
+    "Debit Card"
+  ],
+  "starRating": {
+    "@type": "Rating",
+    "ratingValue": "3"
+  },
+  "aggregateRating": {
+    "@type": "AggregateRating",
+    "ratingValue": "4.2",
+    "reviewCount": "450",
+    "bestRating": "5",
+    "worstRating": "1"
+  },
+  "amenityFeature": [
+    {
+      "@type": "LocationFeatureSpecification",
+      "name": "Free WiFi",
+      "value": true
+    },
+    {
+      "@type": "LocationFeatureSpecification",
+      "name": "Air Conditioning",
+      "value": true
+    },
+    {
+      "@type": "LocationFeatureSpecification",
+      "name": "Restaurant",
+      "value": true
+    },
+    {
+      "@type": "LocationFeatureSpecification",
+      "name": "24-hour Front Desk",
+      "value": true
+    },
+    {
+      "@type": "LocationFeatureSpecification",
+      "name": "No Joiner Charge",
+      "value": true
+    },
+    {
+      "@type": "LocationFeatureSpecification",
+      "name": "Near BTS Station",
+      "value": true
+    }
+  ],
+  "potentialAction": {
+    "@type": "ReserveAction",
+    "target": "https://ibe.hoteliers.guru/ibe/en/Royal-Ivory-Nana-Hotel-Bangkok-Klong-Toey-Bangkok-TH",
+    "result": {
+      "@type": "LodgingReservation"
+    }
+  },
+  "hasMap": "https://maps.google.com/maps?q=Royal+Ivory+Nana+Hotel+Bangkok",
+  "photo": [
+    {
+      "@type": "ImageObject",
+      "url": "https://www.royalivory.com/img/room-2-room-page-2-big.jpg",
+      "caption": "Royal Ivory Hotel Deluxe Room"
+    }
+  ],
+  "containsPlace": [
+    {
+      "@type": "Restaurant",
+      "name": "Royal Ivory Restaurant & Bar",
+      "servesCuisine": ["Thai", "International"],
+      "openingHours": "Mo-Su 07:00-22:00"
+    }
+  ],
+  "nearbyAttraction": [
+    {
+      "@type": "TouristAttraction",
+      "name": "Nana Plaza",
+      "url": "https://www.royalivory.com/nana-plaza-bangkok.html"
+    },
+    {
+      "@type": "TouristAttraction", 
+      "name": "Terminal 21",
+      "url": "https://www.royalivory.com/terminal-21-bangkok.html"
+    },
+    {
+      "@type": "TouristAttraction",
+      "name": "Soi Cowboy",
+      "url": "https://www.royalivory.com/soi-cowboy.html"
+    },
+    {
+      "@type": "TouristAttraction",
+      "name": "Grand Palace",
+      "url": "https://www.royalivory.com/grand-palace-bangkok.html"
+    },
+    {
+      "@type": "TouristAttraction",
+      "name": "Wat Arun Temple",
+      "url": "https://www.royalivory.com/wat-arun-temple.html"
+    }
+  ],
+  "isAccessibleForFree": false,
+  "maximumAttendeeCapacity": 100,
+  "numberOfRooms": 50,
+  "petsAllowed": false,
+  "smokingAllowed": false,
+  "publicAccess": true,
+  "wheelchairAccessible": true,
+  "sameAs": [
+    "https://www.facebook.com/RoyalIvorylHotelBangkok",
+    "https://twitter.com/compassh"
+  ]
+}

@@ -1,0 +1,30 @@
+Contact: info@royalivory.com
+Contact: https://www.royalivory.com/contacts.html
+Expires: 2025-12-31T23:59:59.000Z
+Preferred-Languages: en, th
+Canonical: https://www.royalivory.com/.well-known/security.txt
+Policy: https://www.royalivory.com/privacy-policy.html
+Hiring: https://www.royalivory.com/careers.html
+
+# Security Policy for Royal Ivory Nana Hotel Website
+# 
+# If you discover any security vulnerabilities in our website,
+# please report them responsibly to the contacts listed above.
+# 
+# We appreciate responsible disclosure and will respond promptly
+# to valid security reports.
+# 
+# Please provide:
+# - Description of the vulnerability
+# - Steps to reproduce
+# - Potential impact
+# - Any proof-of-concept code (if applicable)
+# 
+# We commit to:
+# - Acknowledge receipt within 48 hours
+# - Investigate all valid reports
+# - Provide updates on remediation progress
+# - Credit researchers (with permission)
+# 
+# Thank you for helping us maintain a secure website
+# for our guests and visitors.

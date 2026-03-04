@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:dc="http://purl.org/dc/elements/1.1/">
+<channel>
+    <title>Royal Ivory Hotel Bangkok - Travel Guide & Hotel Updates</title>
+    <description>Latest updates from Royal Ivory Nana Hotel Bangkok including Bangkok travel guides, attraction information, and hotel news. Your guide to Bangkok accommodation and tourism.</description>
+    <link>https://www.royalivory.com</link>
+    <atom:link href="https://www.royalivory.com/feed.xml" rel="self" type="application/rss+xml"/>
+    <language>en-us</language>
+    <copyright>Copyright 2025 Royal Ivory Nana Hotel Bangkok</copyright>
+    <managingEditor>info@royalivory.com (Royal Ivory Hotel)</managingEditor>
+    <webMaster>info@royalivory.com (Royal Ivory Hotel)</webMaster>
+    <lastBuildDate>Sat, 23 Feb 2025 12:00:00 +0700</lastBuildDate>
+    <category>Travel</category>
+    <category>Hotels</category>
+    <category>Bangkok Tourism</category>
+    <category>Thailand Travel</category>
+    <generator>Royal Ivory Content Management</generator>
+    <ttl>1440</ttl>
+    <image>
+        <url>https://www.royalivory.com/img/logo.png</url>
+        <title>Royal Ivory Hotel Bangkok</title>
+        <link>https://www.royalivory.com</link>
+        <width>144</width>
+        <height>144</height>
+    </image>
+
+    <!-- Cultural Attractions -->
+    <item>
+        <title>Wat Pho Temple Bangkok - Complete Guide from Royal Ivory Hotel</title>
+        <description>Explore Wat Pho Temple, home of the famous 46-meter Reclining Buddha, just 45 minutes from Royal Ivory Hotel. Complete guide including traditional Thai massage school, temple history, and transportation details.</description>
+        <link>https://www.royalivory.com/wat-pho-temple-bangkok.html</link>
+        <guid isPermaLink="true">https://www.royalivory.com/wat-pho-temple-bangkok.html</guid>
+        <pubDate>Sat, 23 Feb 2025 12:00:00 +0700</pubDate>
+        <category>Cultural Attractions</category>
+        <category>Bangkok Temples</category>
+        <dc:creator>Royal Ivory Hotel</dc:creator>
+    </item>
+
+    <item>
+        <title>Jim Thompson House Bangkok - Thai Silk Heritage Museum Guide</title>
+        <description>Discover Jim Thompson House, showcasing traditional Thai architecture and silk heritage, 25 minutes from Royal Ivory Hotel via BTS. Explore six traditional Thai houses and learn about the mysterious American silk entrepreneur.</description>
+        <link>https://www.royalivory.com/jim-thompson-house-bangkok.html</link>
+        <guid isPermaLink="true">https://www.royalivory.com/jim-thompson-house-bangkok.html</guid>
+        <pubDate>Sat, 23 Feb 2025 12:00:00 +0700</pubDate>
+        <category>Cultural Attractions</category>
+        <category>Museums</category>
+        <dc:creator>Royal Ivory Hotel</dc:creator>
+    </item>
+
+    <item>
+        <title>Grand Palace Bangkok - Ultimate Royal Complex Guide</title>
+        <description>Visit Bangkok's most magnificent royal complex, the Grand Palace, featuring the Emerald Buddha and stunning Thai architecture. Complete guide with transportation from Royal Ivory Hotel and insider visiting tips.</description>
+        <link>https://www.royalivory.com/grand-palace-bangkok.html</link>
+        <guid isPermaLink="true">https://www.royalivory.com/grand-palace-bangkok.html</guid>
+        <pubDate>Sat, 23 Feb 2025 12:00:00 +0700</pubDate>
+        <category>Cultural Attractions</category>
+        <category>Royal Heritage</category>
+        <dc:creator>Royal Ivory Hotel</dc:creator>
+    </item>
+
+    <item>
+        <title>Wat Arun Temple Bangkok - Temple of Dawn Complete Guide</title>
+        <description>Experience the iconic Wat Arun Temple of Dawn with its stunning riverside location and intricate architecture. Detailed guide from Royal Ivory Hotel including Chao Phraya boat journey and visiting tips.</description>
+        <link>https://www.royalivory.com/wat-arun-temple.html</link>
+        <guid isPermaLink="true">https://www.royalivory.com/wat-arun-temple.html</guid>
+        <pubDate>Sat, 23 Feb 2025 12:00:00 +0700</pubDate>
+        <category>Cultural Attractions</category>
+        <category>Bangkok Temples</category>
+        <dc:creator>Royal Ivory Hotel</dc:creator>
+    </item>
+
+    <!-- Shopping Destinations -->
+    <item>
+        <title>Terminal 21 Bangkok Shopping Guide - Airport-Themed Mall Adventure</title>
+        <description>Explore Terminal 21, Bangkok's unique airport-themed shopping mall, just 1 BTS stop from Royal Ivory Hotel. Discover international floors, diverse dining, and convenient shopping all in one location.</description>
+        <link>https://www.royalivory.com/terminal-21-bangkok.html</link>
+        <guid isPermaLink="true">https://www.royalivory.com/terminal-21-bangkok.html</guid>
+        <pubDate>Sat, 23 Feb 2025 12:00:00 +0700</pubDate>
+        <category>Shopping</category>
+        <category>Malls</category>
+        <dc:creator>Royal Ivory Hotel</dc:creator>
+    </item>
+
+    <item>
+        <title>Siam Paragon Bangkok - Luxury Shopping Paradise Guide</title>
+        <description>Discover Siam Paragon, Bangkok's premier luxury shopping destination, featuring designer brands, Sea Life aquarium, and gourmet dining. Easy access from Royal Ivory Hotel via BTS.</description>
+        <link>https://www.royalivory.com/siam-paragon-bangkok.html</link>
+        <guid isPermaLink="true">https://www.royalivory.com/siam-paragon-bangkok.html</guid>
+        <pubDate>Sat, 23 Feb 2025 12:00:00 +0700</pubDate>
+        <category>Shopping</category>
+        <category>Luxury</category>
+        <dc:creator>Royal Ivory Hotel</dc:creator>
+    </item>
+
+    <item>
+        <title>MBK Center Bangkok - Budget Shopping Paradise Complete Guide</title>
+        <description>Experience MBK Center, Bangkok's famous 8-floor shopping complex known for electronics, fashion, and bargaining culture. Your guide to budget shopping 3 BTS stops from Royal Ivory Hotel.</description>
+        <link>https://www.royalivory.com/mbk-center-bangkok.html</link>
+        <guid isPermaLink="true">https://www.royalivory.com/mbk-center-bangkok.html</guid>
+        <pubDate>Sat, 23 Feb 2025 12:00:00 +0700</pubDate>
+        <category>Shopping</category>
+        <category>Budget</category>
+        <dc:creator>Royal Ivory Hotel</dc:creator>
+    </item>
+
+    <!-- Nightlife & Entertainment -->
+    <item>
+        <title>Nana Plaza Bangkok Guide - Entertainment Complex Next to Royal Ivory</title>
+        <description>Explore Nana Plaza, Bangkok's famous entertainment complex, just 200 meters from Royal Ivory Hotel. Complete guide to the 4-story venue with safety tips and insider information.</description>
+        <link>https://www.royalivory.com/nana-plaza-bangkok.html</link>
+        <guid isPermaLink="true">https://www.royalivory.com/nana-plaza-bangkok.html</guid>
+        <pubDate>Sat, 23 Feb 2025 12:00:00 +0700</pubDate>
+        <category>Nightlife</category>
+        <category>Entertainment</category>
+        <dc:creator>Royal Ivory Hotel</dc:creator>
+    </item>
+
+    <item>
+        <title>Bangkok Night Markets Guide - Evening Street Food & Shopping Paradise</title>
+        <description>Discover Bangkok's vibrant night markets including Train Night Market Ratchada and Chatuchak Weekend Night Market. Authentic street food and shopping experiences accessible from Royal Ivory Hotel.</description>
+        <link>https://www.royalivory.com/bangkok-night-markets.html</link>
+        <guid isPermaLink="true">https://www.royalivory.com/bangkok-night-markets.html</guid>
+        <pubDate>Sat, 23 Feb 2025 12:00:00 +0700</pubDate>
+        <category>Nightlife</category>
+        <category>Street Food</category>
+        <category>Markets</category>
+        <dc:creator>Royal Ivory Hotel</dc:creator>
+    </item>
+
+    <item>
+        <title>RCA Clubs Bangkok - Modern Nightclub District Guide</title>
+        <description>Experience RCA (Royal City Avenue), Bangkok's premier nightclub district featuring international DJs and upscale clubbing. Complete guide with transportation from Royal Ivory Hotel.</description>
+        <link>https://www.royalivory.com/rca-clubs-bangkok.html</link>
+        <guid isPermaLink="true">https://www.royalivory.com/rca-clubs-bangkok.html</guid>
+        <pubDate>Sat, 23 Feb 2025 12:00:00 +0700</pubDate>
+        <category>Nightlife</category>
+        <category>Clubs</category>
+        <dc:creator>Royal Ivory Hotel</dc:creator>
+    </item>
+
+    <!-- Hotel Information -->
+    <item>
+        <title>Royal Ivory Hotel Bangkok - Best Nana Hotel with Thai Style Rooms</title>
+        <description>Discover Royal Ivory Nana Hotel, Bangkok's premier budget luxury hotel featuring authentic Thai-style rooms, no joiner charge policy, and prime location 2 minutes from BTS Nana station.</description>
+        <link>https://www.royalivory.com/</link>
+        <guid isPermaLink="true">https://www.royalivory.com/</guid>
+        <pubDate>Sat, 23 Feb 2025 12:00:00 +0700</pubDate>
+        <category>Hotel</category>
+        <category>Accommodation</category>
+        <dc:creator>Royal Ivory Hotel</dc:creator>
+    </item>
+
+    <item>
+        <title>Bangkok Travel Guide - Complete Attraction Guide from Royal Ivory Hotel</title>
+        <description>Your complete Bangkok travel guide featuring cultural attractions, shopping destinations, nightlife venues, and local experiences, all easily accessible from Royal Ivory Hotel's central Nana location.</description>
+        <link>https://www.royalivory.com/bangkok.html</link>
+        <guid isPermaLink="true">https://www.royalivory.com/bangkok.html</guid>
+        <pubDate>Sat, 23 Feb 2025 12:00:00 +0700</pubDate>
+        <category>Travel Guide</category>
+        <category>Bangkok Tourism</category>
+        <dc:creator>Royal Ivory Hotel</dc:creator>
+    </item>
+
+</channel>
+</rss>
