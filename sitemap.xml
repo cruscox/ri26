@@ -155,9 +155,66 @@
     <priority>0.8</priority>
 </url>
 
+<!-- Nana Plaza Topical Authority Pages -->
+<url>
+    <loc>https://www.royalivory.com/best-hotel-nana-bangkok.html</loc>
+    <lastmod>2026-03-04</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+</url>
+
+<url>
+    <loc>https://www.royalivory.com/hotel-near-nana-plaza-bangkok.html</loc>
+    <lastmod>2026-03-04</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+</url>
+
+<url>
+    <loc>https://www.royalivory.com/quiet-hotel-nana-area.html</loc>
+    <lastmod>2026-03-04</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+</url>
+
+<url>
+    <loc>https://www.royalivory.com/hotel-groups-friends-bangkok.html</loc>
+    <lastmod>2026-03-04</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+</url>
+
 <!-- Nightlife & Entertainment -->
 <url>
     <loc>https://www.royalivory.com/nana-plaza-bangkok.html</loc>
+    <lastmod>2025-02-23</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+</url>
+
+<url>
+    <loc>https://www.royalivory.com/nana-pricing-guide.html</loc>
+    <lastmod>2025-02-23</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+</url>
+
+<url>
+    <loc>https://www.royalivory.com/nana-safety-guide.html</loc>
+    <lastmod>2025-02-23</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+</url>
+
+<url>
+    <loc>https://www.royalivory.com/soi-cowboy-vs-nana.html</loc>
+    <lastmod>2025-02-23</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+</url>
+
+<url>
+    <loc>https://www.royalivory.com/soi-4-directory.html</loc>
     <lastmod>2025-02-23</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
