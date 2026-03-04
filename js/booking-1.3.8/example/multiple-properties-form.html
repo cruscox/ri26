@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8"><link rel="manifest" href="/manifest.json"><link rel="alternate" type="application/rss+xml" title="Royal Ivory Hotel Bangkok" href="/feed.xml"><link rel="security" href="/.well-known/security.txt">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Example: Multiple Properties Form</title>
+        <link rel="stylesheet" href="../tl-datepicker-theme.css">
+    </head>
+    <body>
+        <form class="booking-form">
+            <select name="property">
+                <option value="1">Hotel Name 1</option>
+                <option value="2">Hotel Name 2</option>
+                <option value="3">Hotel Name 3</option>
+            </select>
+            <input type="text" name="checkin" readonly>
+            <input type="text" name="checkout" readonly>
+            <select name="numofadult">
+                <option value="1" selected>1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5">5</option>
+                <option value="6">6</option>
+                <option value="7">7</option>
+                <option value="8">8</option>
+                <option value="9">9</option>
+                <option value="10">10</option>
+                <option value="11">11</option>
+                <option value="12">12</option>
+            </select>
+            <select name="numofchild">
+                <option value="0" selected>0</option>
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5">5</option>
+            </select>
+            <select name="numofroom">
+                <option value="1" selected>1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5">5</option>
+                <option value="6">6</option>
+                <option value="7">7</option>
+                <option value="8">8</option>
+                <option value="9">9</option>
+            </select>
+            <input type="text" name="accesscode">
+            <button type="submit">BOOK NOW</button>
+        </form>
+
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script>
+        <script src="../tl-booking.js"></script>
+        <script>
+            jQuery('.booking-form').booking({
+                checkInSelector: '[name="checkin"]',
+                checkOutSelector: '[name="checkout"]',
+                adultSelector: '[name="numofadult"]',
+                childSelector: '[name="numofchild"]',
+                roomSelector: '[name="numofroom"]',
+                codeSelector: '[name="accesscode"]',
+                propertyId: '[name="property"]',
+                onlineId: 4,
+                language: null,
+                beforeSubmit: function(){},
+                afterSubmit: function(){},
+                debug: true,
+            });
+        </script>
+    </body>
+</html>

@@ -1,0 +1,1 @@
+function highdpi_init(){if(jQuery(".replace-2x").css("font-size")=="1px"){var b=jQuery("img.replace-2x").get();for(var a=0;a<b.length;a++){var c=b[a].src;c=c.replace(".png","@2x.png");b[a].src=c}}}jQuery(document).ready(function(){highdpi_init()});

@@ -1,0 +1,76 @@
+<html>
+    <head>
+        <meta charset="utf-8"><link rel="manifest" href="/manifest.json"><link rel="alternate" type="application/rss+xml" title="Royal Ivory Hotel Bangkok" href="/feed.xml"><link rel="security" href="/.well-known/security.txt">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Example: Multiple Form</title>
+        <link rel="stylesheet" href="../tl-datepicker-theme.css">
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script>
+        <script src="../tl-booking.js"></script>
+    </head>
+
+    <body>
+        <form action="/" class="booking-form" data-secretcode="sds">
+            <input type="text" name="checkin" readonly>
+            <input type="text" name="checkout" readonly>
+            <select name="numofadult">
+                <option value="1">1</option>
+            </select>
+            <select name="numofchild">
+                <option value="0">0</option>
+            </select>
+            <select name="numofroom">
+                <option value="1">1</option>
+            </select>
+            <input type="text" name="accesscode">
+            <button type="submit" class="btn-submit">BOOK NOW</button>
+        </form>
+
+        <form action="/" class="booking-form" data-secretcode="">
+            <input type="text" name="checkin" readonly>
+            <input type="text" name="checkout" readonly>
+            <select name="numofadult">
+                <option value="1">1</option>
+            </select>
+            <select name="numofchild">
+                <option value="0">0</option>
+            </select>
+            <select name="numofroom">
+                <option value="1">1</option>
+            </select>
+            <input type="text" name="accesscode">
+            <button type="submit" class="btn-submit">BOOK NOW</button>
+        </form>
+
+        <form action="/" class="booking-form" data-secretcode="sds">
+            <input type="text" name="checkin" readonly>
+            <input type="text" name="checkout" readonly>
+            <select name="numofadult">
+                <option value="1">1</option>
+            </select>
+            <select name="numofchild">
+                <option value="0">0</option>
+            </select>
+            <select name="numofroom">
+                <option value="1">1</option>
+            </select>
+            <input type="text" name="accesscode">
+            <button type="submit" class="btn-submit">BOOK NOW</button>
+        </form>
+
+        <script>
+            $('.booking-form').booking({
+                checkInSelector: '[name="checkin"]',
+                checkOutSelector: '[name="checkout"]',
+                adultSelector: '[name="numofadult"]',
+                childSelector: '[name="numofchild"]',
+                roomSelector: '[name="numofroom"]',
+                codeSelector: '[name="accesscode"]',
+                submitSelector: '.btn-submit',
+                propertyId: 383,
+                onlineId: 4,
+                debug: true,
+            });
+        </script>
+    </body>
+</html>
