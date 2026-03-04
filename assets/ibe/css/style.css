@@ -1,0 +1,270 @@
+body {
+    font-size: 16px;
+    -webkit-font-smoothing: antialiased;
+    -webkit-text-size-adjust: 100%;
+}
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+select {
+    -webkit-appearance: inherit;
+    -moz-appearance: inherit;
+    list-style: none;
+    font-family: inherit;
+    font-size: inherit;
+}
+input {
+    font-family: inherit;
+    font-size: inherit;
+}
+a {
+    color: inherit;
+}
+.col20 {
+    position: relative;
+    width: 20%;
+    float: left;
+    padding: 0 6px;
+}
+.reservation_box {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background: rgba(0,0,0,0.85);
+    padding: 15px;
+}
+.reservation {
+    position: relative;
+    width: 100%;
+    display: inline-block;
+}
+.text_ibe {
+    color: #fff;
+    margin: 0 0 8px;
+    font-size: 14px;
+}
+.content_ibe {
+    position: relative;
+    width: 100%;
+    background: #fff;
+    display: inline-block;
+    padding: 10px;
+}
+.content_ibe span {
+    color: #1E1E1E;
+}
+.content_ibe.reservation-check,.content_ibe.promo_code {
+    background: none;
+    padding: 0;
+    color: #1E1E1E;
+}
+.reservation-check select {
+    position: relative;
+    width: 100%;
+    background: #fff;
+    padding: 10px;
+    border: 0;
+    color: #1E1E1E;
+    outline: none;
+}
+.reservation-check i {
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+
+}
+.promo_code input {
+    position: relative;
+    width: 100%;
+    background: #fff;
+    padding: 10px;
+    border: 0;
+    color: #1E1E1E;
+    outline: none;
+}
+.promo_code input:focus::placeholder{
+    color:transparent;
+    transition: all 0.3s;
+}
+.promo_code  input::placeholder {
+    color: #1E1E1E;
+}
+.btnbook_reser {
+    position: relative;
+    width: 100%;
+    display: inline-block;
+    padding: 9px;
+    color: #fff;
+    transition: all .6s;
+    outline: none;
+    background: #89472A;
+    border: 1px solid #89472A;
+}
+.btnbook_reser:hover{
+    background: none !important;
+    border: 1px solid #ca9c6a;
+    color: #ca9c6a;
+}
+
+/***************************/
+/* POPUP ROOM LIST */
+/***************************/
+#popup_room_list.popup_content {
+    position: absolute;
+    background: #fff;
+    width: 250px;
+    margin: 24px 0;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    transition: all 0.5s;
+    z-index: 6;
+}
+
+#popup_room_list.popup_content #numberrroomRow {
+    background: #ffffff;
+}
+#popup_room_list.popup_content label {
+    padding: 10px;
+    color: #454545;
+    float: left;
+    font-size: 14px;
+    margin-bottom: 0;
+}
+#popup_room_list #numberOfRoom1 ,
+#popup_room_list #numberOfRoom2 ,
+#popup_room_list #numberOfRoom3 ,
+#popup_room_list #numberOfRoom4 ,
+#popup_room_list #numberOfRoom5 {
+    position: relative;
+    float: right;
+}
+#popup_room_list .popup_content .form_group_half {
+    float: left;
+    position: relative;
+    width: 100%;
+}
+#popup_room_list .form-group.form_group_half {
+    display: inline-block;
+    padding: 5px 10px 10px 10px !important;
+    margin: 0;
+    width: 100%;
+}
+
+.input-group {
+    width: 100%;
+    margin-bottom: 0;
+    display: table;
+}
+#popup_room_list .input-group-addon:first-child {
+    background: #fff;
+    padding: 0 15px;
+    border: 1px solid #eee;
+    font-size: 14px;
+    border-right: none;
+    width: 100px;
+    height: 45px;
+    color: #888;
+    text-transform: capitalize;
+}
+#popup_room_list .arrow {
+    position: absolute;
+    bottom: 15px;
+    right: 10px;
+    color: #888;
+}
+#popup_room_list select {
+    width: 100%;
+    height: 45px;
+    padding: 10px;
+    border-radius: 0;
+    background: none;
+    outline: none;
+    cursor: pointer;
+    letter-spacing: 1px;
+    position: relative;
+    z-index: 1;
+    border: 1px solid #eee;
+    color: #888;
+    font-size: 14px;
+}
+#popup_room_list input {
+    width: 100%;
+    font-size: 16px;
+    padding: 12px 12px 11px;
+    color: white;
+    outline: none;
+    border: none;
+}
+.popupTop {
+    bottom: 70px;
+    top: inherit;
+}
+.popupTop #numberrroomRow:before {
+    top: inherit;
+    transform: rotate(180deg);
+    -ms-transform: rotate(180deg);
+    -webkit-transform: rotate(180deg);
+    bottom: -15px;
+}
+.popupTop #ui-datepicker-div:before{
+
+}
+.popupTop {
+    bottom: 70px;
+    top: inherit;
+}
+
+.popupTop #numberrroomRow:before {
+    top: inherit;
+    transform: rotate(180deg);
+    -ms-transform: rotate(180deg);
+    -webkit-transform: rotate(180deg);
+    bottom: -15px;
+}
+.form-group {
+    margin: 0 !important;
+}
+.padding_apply {
+    padding: 0 10px 10px;
+}
+.popup_content .col-xs-6 {
+    padding: 10px;
+}
+/***************************/
+/* BOOKING MOBILE */
+/***************************/
+.booking_mobile {
+    position: fixed;
+    width: 100%;
+    left: 0;
+    bottom: 0;
+    z-index: 8;
+    height: 60px;
+    text-align: center;
+    display: none;
+}
+.booking_mobile .col-xs-4 {
+    background: #1e1e1e;
+    color: #ffffff;
+}
+.booking_mobile .tel_mobile {
+    border-right: 1px solid #3f3f3f;
+}
+.booking_mobile .book_mobile{
+    background: #89472A;
+}
+.booking_mobile [class*=col-xs-] {
+    padding: 22px 10px;
+}
+@media (max-width: 768px) {
+    .reservation_box {
+        display: none;
+    }
+    .booking_mobile {
+        display: block;
+    }
+
+}
+

@@ -1,0 +1,31 @@
+/* ----------------------------------------------------------- */
+/*                WISEGUYS STYLE SWITCHER                      */
+/* ----------------------------------------------------------- */
+
+.styleSwitcherWrapper{
+ position: fixed;
+ right:5%;
+ padding: 5px 5px 0px 5px;
+ bottom: -370px;
+ width: 240px;
+height: 350px;
+ background: url('images/bg.png') no-repeat 0px top;
+  z-index: 9999;
+-moz-box-shadow:0px 2px 6px 3px #efefef;
+-webkit-box-shadow:0px 2px 6px 3px #efefef;
+box-shadow:0px 2px 6px 3px #efefef;
+background-color:#fff;
+}
+
+
+.styleSwitcherToggle{
+  width: 84px;
+  height: 56px;
+  display: block;
+  position: absolute;
+  right: 5px;
+  top:-56px;
+  background: url('images/toggle.png') no-repeat center center;
+
+}
+
